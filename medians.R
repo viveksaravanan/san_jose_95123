@@ -1,9 +1,12 @@
-bedrooms = data$BR
-median(bedrooms)
+bedrooms = sjdata$BR
+median(bedrooms) 
+#3
 
-bathrooms = data$Bth
-median(bathrooms)
 
-prices = data$LP
-median(prices)
+bathrooms = sjdata$Bth
+median(bathrooms) 
+#2
 
+prices = sjdata$LP
+median(prices) 
+#949000
